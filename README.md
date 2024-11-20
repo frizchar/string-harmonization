@@ -7,7 +7,7 @@ Specifically :
 $L_{ij}=max(L_{ik})$, where $1\leq k \leq m$
 </p>
 
-2. to implement this we use the [fuzzywuzzy](https://oracle.github.io/python-cx_Oracle/](https://pypi.org/project/fuzzywuzzy/)) python package 
+2. to implement this we use the [fuzzywuzzy](https://pypi.org/project/fuzzywuzzy/) python package 
 3. the code outputs each value $A_i$ in the following form: $(A_i, B_j, L_{ij})$, where $1\leq i \leq n$ and $1\leq j \leq m$
 
 ### Dependencies
