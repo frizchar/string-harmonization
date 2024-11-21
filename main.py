@@ -1,14 +1,14 @@
 from fuzzywuzzy import fuzz
 
-list_A = ['string1', 'string2', 'string3']
-list_B = ['string1a', 'string2', 'string1rr', 'string3b_23', 'string3.']
+set_A = {'string1', 'string2', 'string3'}
+set_B = {'string1a', 'string2', 'string1rr', 'string3b_23', 'string3.'}
 
 results_list = []
 
-for item_a in list_A:
+for item_a in set_A:
     max_distance = 0
     closest_match = None
-    for item_b in list_B:
+    for item_b in set_B:
         distance = fuzz.ratio(item_b, item_a)
         if distance > max_distance:
             max_distance = distance
