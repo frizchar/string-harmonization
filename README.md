@@ -8,7 +8,10 @@ Specifically :
 $L_{ij}=max(\{L_{ik}|k\in \\{1,2,\dots,m\\} \})$
 </p>
 
-3. the code outputs each value $A_i$ in the following form: $(A_i, B_j, L_{ij})$, where $1\leq i \leq n$ and $1\leq j \leq m$
+3. the code outputs $n$ pairs in the form $(A_i, B_j, L_{ij})$, where
+   -  $A_i$ is the $i_{th}$ element of set $A$,
+   -  $B_j$ is its best match from set $B$ and
+   -  $L_{ij}$ is their _Levenshtein distance_
 
 ### Dependencies
 The required packages are included in file ```requirements.txt```.<br>
