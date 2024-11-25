@@ -1,4 +1,4 @@
-# String harmonization
+# String matching
 ### Overview
 We provide a method to harmonize a set of strings $B=\\{B_1, B_2,...,B_m\\}$ against another set of strings $A=\\{A_1, A_2,...,A_n\\}$.<br>
 Specifically :
