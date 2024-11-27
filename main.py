@@ -17,9 +17,10 @@ def find_closest_matches(set_A, set_B):
     return results_list
 
 
-# Example usage
-set_A = {'string1', 'string2', 'string3'}
-set_B = {'string1a', 'string2', 'string1rr', 'string3b_23', 'string3.'}
+if __name__ == "__main__":
+    # Example usage
+    set_A = {'string1', 'string2', 'string3'}
+    set_B = {'string1a', 'string2', 'string1rr', 'string3b_23', 'string3.'}
 
-results = find_closest_matches(set_A, set_B)
-print('results:', results)
+    results = find_closest_matches(set_A, set_B)
+    print('results:', results)
