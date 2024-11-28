@@ -1,4 +1,4 @@
-from fuzzywuzzy import fuzz  # Import the fuzz module from the fuzzywuzzy library for string matching
+from fuzzywuzzy import fuzz
 
 
 def find_closest_matches(set_A, set_B):
